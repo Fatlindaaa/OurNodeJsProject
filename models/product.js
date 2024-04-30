@@ -17,6 +17,9 @@ const getProductsFromFile = cb => {
   });
 };
 
+function consolelog(){
+  console.log(hallo);
+};
 module.exports = class Product {
   constructor(title, imageUrl, description, price) {
     this.title = title;
